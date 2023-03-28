@@ -6,7 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class _03_CitizenshipStesp {
+public class _03_CitizenshipSteps {
     DialogContent dc=new DialogContent();
     LeftNav ln=new LeftNav();
 
@@ -28,5 +28,11 @@ public class _03_CitizenshipStesp {
     @Then("Already exist message should be displayed")
     public void alreadyExistMessageShouldBeDisplayed() {
         dc.verifyContainsTextFunction(dc.alreadyExist,"already");
+    }
+
+    @When("User delete the {string}")
+    public void userDeleteThe(String searchText) {
+        dc.deleteItem(searchText);
+
     }
 }
