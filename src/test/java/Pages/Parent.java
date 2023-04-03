@@ -31,7 +31,7 @@ public class Parent {
 
     public void verifyContainsTextFunction(WebElement element, String value){
         wait.until(ExpectedConditions.textToBePresentInElement(element, value));
-        Assert.assertTrue(element.getText().toLowerCase().contains(value.toLowerCase()),"bo such TEXT");
+        Assert.assertTrue(element.getText().toLowerCase().contains(value.toLowerCase()),"no such TEXT");
         new Actions(GWD.getDriver()).sendKeys(Keys.ESCAPE).perform();//ekranda açık dialog kutusu kalırsa onu kapatır.
     }
 

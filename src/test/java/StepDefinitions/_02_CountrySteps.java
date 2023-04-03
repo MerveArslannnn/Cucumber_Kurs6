@@ -5,6 +5,7 @@ import Pages.LeftNav;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.commons.lang3.RandomStringUtils;
 
 public class _02_CountrySteps {
     LeftNav ln = new LeftNav();
@@ -19,9 +20,11 @@ public class _02_CountrySteps {
 
     @When("create a country")
     public void createACountry() {
+        String ulkeAdi= RandomStringUtils.randomAlphanumeric(8);
+        String ulkeKodu=RandomStringUtils.randomNumeric(4);
         dc.clickFunction(dc.addButton);
-        dc.sendKeysFunction(dc.nameInput, "Merve14");
-        dc.sendKeysFunction(dc.codeInput, "112k1");
+        dc.sendKeysFunction(dc.nameInput, ulkeAdi);
+        dc.sendKeysFunction(dc.codeInput, ulkeKodu);
         dc.clickFunction(dc.saveButton); // TODO
     }
 
