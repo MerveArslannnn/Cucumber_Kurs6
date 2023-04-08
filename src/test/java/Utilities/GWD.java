@@ -77,4 +77,11 @@ public class GWD {
  //      threadBrowserName.set(browser);
  //  }--> set le çalışmazsa bunu da kullanabiliriz
 
+
+
+    public static String threadBrowserGet(){
+        return threadBrowserName.get();
+    }
+
 }
+
