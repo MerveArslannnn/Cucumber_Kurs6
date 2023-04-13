@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65b2fa8f-54bf-4f4d-9dbf-15022cc81efd" name="Changes" comment="cucumber islemler">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_08_Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_09_Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ScenarioStatus.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_09_ApachePOICitizen.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_09_ApachePOISteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_01_Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_02_NexPrevAbsRel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/JDBCParent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ApacheEcxel2.xlsx/ApacheExcel2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ApacheExcel2 (2).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +62,7 @@
       <recent name="Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: _03_CountryMultipleScenairos">
-    <configuration name="_09_Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApachePOI._09_Task" />
-      <module name="Cucumber_Kurs6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ApachePOI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG._02_NexPrevAbsRel.AbsoluteRelative">
     <configuration name="Feature: _03_CountryMultipleScenairos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenairos.feature" />
@@ -89,25 +71,6 @@
       <module name="Cucumber_Kurs6" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: _03_CountryMultipleScenairos" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: _09_ApachePOICitizen" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_09_ApachePOICitizen.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kurs6" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _09_ApachePOICitizen" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,33 +102,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: # before senaryo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_09_ApachePOICitizen.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="_01_Intro.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Kurs6" />
-      <option name="NAME_FILTER" value="^\# before senaryo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\# before senaryo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: # before senaryo" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="_JDBC.GUN01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._01_Intro" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_NexPrevAbsRel.AbsoluteRelative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Kurs6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_JDBC.GUN01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._02_NexPrevAbsRel" />
+      <option name="METHOD_NAME" value="AbsoluteRelative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_NexPrevAbsRel.textNextPrev" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Kurs6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_JDBC.GUN01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._02_NexPrevAbsRel" />
+      <option name="METHOD_NAME" value="textNextPrev" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._02_NexPrevAbsRel.AbsoluteRelative" />
+        <item itemvalue="TestNG._02_NexPrevAbsRel.textNextPrev" />
+        <item itemvalue="TestNG._01_Intro.test1" />
         <item itemvalue="Cucumber Java.Feature: _03_CountryMultipleScenairos" />
         <item itemvalue="Cucumber Java.Scenario: # before senaryo (1)" />
-        <item itemvalue="Cucumber Java.Feature: _09_ApachePOICitizen" />
-        <item itemvalue="Cucumber Java.Scenario: # before senaryo" />
-        <item itemvalue="Application._09_Task" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680547516213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cucumber islemler">
+      <created>1680987134347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680987134347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
