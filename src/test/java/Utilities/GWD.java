@@ -45,7 +45,9 @@ public class GWD {
                 default:
             //chrome için
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--remote-allow-origins=*");
+            //options.addArguments("--remote-allow-origins=*");
+            options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--window-size=1400,2400");
+
             theadDriver.set(new ChromeDriver(options));
             break;
             }
