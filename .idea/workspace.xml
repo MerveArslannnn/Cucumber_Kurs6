@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65b2fa8f-54bf-4f4d-9dbf-15022cc81efd" name="Changes" comment="cucumber islemler">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_01_Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_02_NexPrevAbsRel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/JDBCParent.java" afterDir="false" />
+    <list default="true" id="65b2fa8f-54bf-4f4d-9dbf-15022cc81efd" name="Changes" comment="JDBC işlemleri 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_11_JDBCStates.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_11_JDBCSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/DBUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_03_Soru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN01/_04_FirstLastGetRowgetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN02/_01_GetAllRowColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/GUN02/_02_Soru.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ScenarioStatus.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ScenarioStatus.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/merve/IdeaProjects/Cucumber_Kurs6/src/test/java/ApachePOI/resource&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -62,15 +70,15 @@
       <recent name="Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._02_NexPrevAbsRel.AbsoluteRelative">
-    <configuration name="Feature: _03_CountryMultipleScenairos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: _11_JDBCStates">
+    <configuration name="Feature: _11_JDBCStates" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenairos.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_11_JDBCStates.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kurs6" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _03_CountryMultipleScenairos" />
+      <option name="SUGGESTED_NAME" value="Feature: _11_JDBCStates" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: # before senaryo (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: States testing with JDBC" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenairos.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_11_JDBCStates.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kurs6" />
-      <option name="NAME_FILTER" value="^\# before senaryo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\# before senaryo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: # before senaryo" />
+      <option name="NAME_FILTER" value="^States testing with JDBC$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^States testing with JDBC$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: States testing with JDBC" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,16 +110,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_Intro.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_01_GetAllRowColumn.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Kurs6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_JDBC.GUN01.*" />
+          <option name="PATTERN" value="_JDBC.GUN02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
-      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._01_Intro" />
+      <option name="PACKAGE_NAME" value="_JDBC.GUN02" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN02._01_GetAllRowColumn" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -120,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_NexPrevAbsRel.AbsoluteRelative" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_01_GetAllRowColumn.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Kurs6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_JDBC.GUN01.*" />
+          <option name="PATTERN" value="_JDBC.GUN02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
-      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._02_NexPrevAbsRel" />
-      <option name="METHOD_NAME" value="AbsoluteRelative" />
+      <option name="PACKAGE_NAME" value="_JDBC.GUN02" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN02._01_GetAllRowColumn" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_NexPrevAbsRel.textNextPrev" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_Soru.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Kurs6" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +155,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="_JDBC.GUN01" />
-      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._02_NexPrevAbsRel" />
-      <option name="METHOD_NAME" value="textNextPrev" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.GUN01._03_Soru" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG._02_NexPrevAbsRel.AbsoluteRelative" />
-        <item itemvalue="TestNG._02_NexPrevAbsRel.textNextPrev" />
-        <item itemvalue="TestNG._01_Intro.test1" />
-        <item itemvalue="Cucumber Java.Feature: _03_CountryMultipleScenairos" />
-        <item itemvalue="Cucumber Java.Scenario: # before senaryo (1)" />
+        <item itemvalue="Cucumber Java.Feature: _11_JDBCStates" />
+        <item itemvalue="Cucumber Java.Scenario: States testing with JDBC" />
+        <item itemvalue="TestNG._01_GetAllRowColumn.test2" />
+        <item itemvalue="TestNG._01_GetAllRowColumn.test1" />
+        <item itemvalue="TestNG._03_Soru.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680987134347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JDBC işlemleri 1">
+      <created>1681410633523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681410633523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JDBC işlemleri 2">
+      <created>1681410642854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681410642854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +234,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cucumber islemler" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber islemler" />
+    <MESSAGE value="JDBC işlemleri 1" />
+    <MESSAGE value="JDBC işlemleri 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC işlemleri 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
