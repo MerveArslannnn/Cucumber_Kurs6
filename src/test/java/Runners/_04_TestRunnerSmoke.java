@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@SmokeTest",//hangi senaryolarda smoke
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"},
-        plugin= {"html:target/site/cucumber-pretty.html"})//basit rapor
+        plugin= ("json:target/cucumber/cucumber.json"))//basit rapor
 
 public class _04_TestRunnerSmoke extends AbstractTestNGCucumberTests {
 }
