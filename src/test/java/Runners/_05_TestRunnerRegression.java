@@ -8,6 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         //or yerine and yazılırsa hem smoke bende regrassion tag i olanları çalıştırır
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"}
+        ,plugin= {"json:target/cucumber/cucumber.json"}
 )
 public class _05_TestRunnerRegression extends AbstractTestNGCucumberTests {
 }
